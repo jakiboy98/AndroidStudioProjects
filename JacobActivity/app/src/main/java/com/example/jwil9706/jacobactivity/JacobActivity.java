@@ -1,22 +1,22 @@
-package com.example.jwil9706.aboutme;
+package com.example.jwil9706.jacobactivity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class AboutMe extends Activity {
+public class JacobActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_me);
+        setContentView(R.layout.activity_jacob);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_about_me, menu);
+        getMenuInflater().inflate(R.menu.menu_jacob, menu);
         return true;
     }
 
