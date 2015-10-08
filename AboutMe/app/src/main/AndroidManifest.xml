@@ -16,6 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".jacobActivity"
+            android:label="@string/title_activity_jacob" >
+        </activity>
+        <activity
+            android:name=".wrestlingActivity"
+            android:label="@string/title_activity_wrestling" >
+        </activity>
+        <activity
+            android:name=".cookingActivity"
+            android:label="@string/title_activity_cooking" >
+        </activity>
+        <activity
+            android:name=".pokemonActivity"
+            android:label="@string/title_activity_pokemon" >
+        </activity>
+        <activity
+            android:name=".dndActivity"
+            android:label="@string/title_activity_dnd" >
+        </activity>
+        <activity
+            android:name=".fullmetalActivity"
+            android:label="@string/title_activity_fullmetal" >
+        </activity>
     </application>
 
 </manifest>
