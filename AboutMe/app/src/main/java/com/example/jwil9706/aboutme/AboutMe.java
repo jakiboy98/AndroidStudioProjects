@@ -28,7 +28,7 @@ public class AboutMe extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_me);
-        
+
         jacobButton = (Button) findViewById(R.id.jacobButton);
         wrestlingButton = (Button) findViewById(R.id.wrestlingButton);
         cookingButton = (Button) findViewById(R.id.cookingButton);
